@@ -4,6 +4,7 @@ namespace GlobalResources
     {
         PRIVATE,
         PUBLIC,
-        INTERNAL
+        INTERNAL,
+        PROTECTED
     }
 }

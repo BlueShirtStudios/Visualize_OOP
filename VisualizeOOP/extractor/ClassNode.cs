@@ -15,6 +15,7 @@ namespace ClassExtractor
         {
             ClassName = cName;
             ClassNameSpace = "";
+            VisibleState = ClassVisibility.INTERNAL;
         }
     }
 }
