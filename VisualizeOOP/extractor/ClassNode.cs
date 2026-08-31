@@ -1,5 +1,3 @@
-using ClassVisibility = GlobalResources.Visibility;
-
 namespace ClassExtractor
 {   
     public record ClassNode(
