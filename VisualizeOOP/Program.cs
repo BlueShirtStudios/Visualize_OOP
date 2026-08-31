@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using ClassExtractor;
+
+var engine = new NodeEngine(@"C:\PATH\TO\FOLDER");
+await engine.RunAsync();
