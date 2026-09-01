@@ -8,7 +8,8 @@ namespace ClassExtractor
         string? ParentClass,
         List<string> Interfaces,
         List<string> Methods,
-        List<string> Attributes,
+        List<MemberDetails> Fields,
+        List<MemberDetails> Properties,
         string FilePath
     );
 }
