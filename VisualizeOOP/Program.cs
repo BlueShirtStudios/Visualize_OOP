@@ -1,6 +1,8 @@
 ﻿using System;
 using ClassExtractor;
 
-var engine = new NodeEngine(@"C:\PATH\TO\FOLDER");
-await engine.RunAsync();
-engine.EstablishRelationshipsBetweenNodes();
+//Demo Use
+var engine = new NodeEngine(@"C:\Path\To\Folder");
+await engine.RunAsyncReadSourcefiles();
+engine.EstablishRelationshipsBetweenClasses();
+await engine.CreateJSONClassFile();
