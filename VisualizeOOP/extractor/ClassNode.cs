@@ -7,7 +7,7 @@ namespace ClassExtractor
         string AccessModifier,
         string? ParentClass,
         List<string> Interfaces,
-        List<string> Methods,
+        List<MethodDetails> Methods,
         List<MemberDetails> Fields,
         List<MemberDetails> Properties,
         string FilePath

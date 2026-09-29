@@ -58,7 +58,7 @@ namespace ClassExtractor
                     ClassInheritanceExtraction inheritanceSituation = ExtractInheritance(cls);
 
                     //Member Detials
-                    List<string> methods = ExtractMethods(cls);
+                    List<MethodDetails> methods = ExtractMethods(cls);
                     List<MemberDetails> fields = ExtractFields(cls);
                     List<MemberDetails> properties = ExtractProperties(cls);
 
@@ -159,12 +159,37 @@ namespace ClassExtractor
             return inheritanceSituation;
         }
 
-        private List<string> ExtractMethods(ClassDeclarationSyntax cls)
+        private List<MethodDetails> ExtractMethods(ClassDeclarationSyntax cls)
         {
-            return cls.Members
-                .OfType<MethodDeclarationSyntax>()
-                .Select(m => m.Identifier.Text)
-                .ToList();
+            //Initialize
+            var methodFields = new List<MethodDetails>();
+
+            //Go through each method within the class
+            foreach(var method in cls.Members.OfType<MethodDeclarationSyntax>())
+            {
+                //Get the declareation details -> Name, return type and visibility
+                string returnType = method.ReturnType.ToString();
+                string visibility = ExtractVisibility(method.Modifiers);
+                string name = method.Identifier.Text;
+
+                //Get the parameters of the method
+                List<ParameterDetails> parameterDetails = method.ParameterList.Parameters
+                   .Select(
+                        p => new ParameterDetails(
+                          Name: p.Identifier.Text,
+                          Type: p.Type?.ToString() ?? "var",
+                          Modifiers: p.Modifiers.ToString(),
+                          DefaultValue: p.Default?.Value.ToString()
+                        ))
+                   .ToList();
+
+                //Create new method details object and add to list
+                methodFields.Add(new MethodDetails(visibility, returnType, name, parameterDetails));
+
+            }
+
+            //Return list of all the methods
+            return methodFields;
         }
 
         private List<MemberDetails> ExtractFields(ClassDeclarationSyntax cls)

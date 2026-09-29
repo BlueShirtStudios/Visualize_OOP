@@ -10,4 +10,17 @@ namespace ClassExtractor
         string Visibility,
         string Type,
         string Name);
+
+    public record MethodDetails(
+        string Visibility,
+        string ReturnType,
+        string Name,
+        List<ParameterDetails> Parameters);
+
+    public record ParameterDetails(
+        string Name,
+        string Type,
+        string Modifiers,
+        string? DefaultValue);
+    
 }
