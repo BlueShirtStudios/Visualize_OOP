@@ -1,0 +1,2483 @@
+[
+  {
+    "Name": "frmMainPoint",
+    "Namespace": "NasicoSystem",
+    "AccessModifier": "internal",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "protected",
+        "ReturnType": "void",
+        "Name": "Dispose",
+        "Parameters": [
+          {
+            "Name": "disposing",
+            "Type": "bool",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "InitializeComponent",
+        "Parameters": []
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "System.ComponentModel.IContainer",
+        "Name": "components"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TabControl",
+        "Name": "tbcMainform"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TabPage",
+        "Name": "tabDBView"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TabPage",
+        "Name": "tabParticularsOfCompany"
+      },
+      {
+        "Visibility": "private",
+        "Type": "DataGridView",
+        "Name": "dataGridView1"
+      },
+      {
+        "Visibility": "private",
+        "Type": "SplitContainer",
+        "Name": "splitContainer1"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlMainNa"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "button4"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "button3"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "button1"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "button2"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TabPage",
+        "Name": "tabMemberManagement"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "panel2"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlCompanyDetails"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblIncoperationDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblFinYearEnd"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblDescription"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblNumOfMem"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblCompanyType"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblRegistrationDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblTradingName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblRegisteredName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblRegistrationNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlRegisterRibbon"
+      },
+      {
+        "Visibility": "private",
+        "Type": "MonthCalendar",
+        "Name": "mthCalRegisterDates"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "txbDescription"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "txbNumMembers"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "txbFinYearEnd"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxIncorperationDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxRegistrationDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "ComboBox",
+        "Name": "cmbCompanyType"
+      },
+      {
+        "Visibility": "private",
+        "Type": "MaskedTextBox",
+        "Name": "mtbxRegitrationNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxRegisterName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxTradingName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblWCFNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblUIFNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblPAYERefNumber"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblCustomNumber"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblVATNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblIncomeTaxNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxUIFNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxPAYENumber"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxCustomNumber"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxVATNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxIncomeTaxNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxWCFNum"
+      },
+      {
+        "Visibility": "private",
+        "Type": "DataGridView",
+        "Name": "dgvIdentityOverview"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlIdentityOverviewRibbon"
+      },
+      {
+        "Visibility": "private",
+        "Type": "CheckBox",
+        "Name": "ckbOnlyAllotmentOwners"
+      },
+      {
+        "Visibility": "private",
+        "Type": "CheckBox",
+        "Name": "ckbOnlyMembers"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnRefreshIdentityOverview"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnEditCompanyDetails"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnRemoveCompany"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnRegisterNewCompany"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlSearcIcon"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlExtendedCompanyDetails"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxAppointedDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxRegisterAccOffAddr"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxAccName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblDateOfAppointment"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblAccRegisteredOffAddr"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblAccName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblCompanyIdentityOverview"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnHaltCompanyCreation"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnSaveNewCompany"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxPostalAddr"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxRegisterOffAddr"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblPostalAddr"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblAddrRegisteredOff"
+      },
+      {
+        "Visibility": "private",
+        "Type": "ComboBox",
+        "Name": "cmbSearchCompany"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnSaveEditChanges"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnStopEditMode"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlMemberManagementRibbon"
+      },
+      {
+        "Visibility": "private",
+        "Type": "DataGridView",
+        "Name": "dataGridView2"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Panel",
+        "Name": "pnlIdentityDetails"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblIdentityName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lbIdentitySurname"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblIdentityAddress"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblIDNumber"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblIdentityDOB"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberAddress"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberDOB"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberIDNumber"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberSurname"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberName"
+      },
+      {
+        "Visibility": "private",
+        "Type": "CheckBox",
+        "Name": "ckbDoesIdentityExist"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnEditIdentity"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnResignMember"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnEditMember"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnAddNewMember"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberResignitionDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberAppointedDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "TextBox",
+        "Name": "tbxMemberInterest"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblMemberResignitionDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblMemberAppointedDate"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Label",
+        "Name": "lblMemberInterest"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnStopMemberCreation"
+      },
+      {
+        "Visibility": "private",
+        "Type": "Button",
+        "Name": "btnSaveNewMember"
+      },
+      {
+        "Visibility": "private",
+        "Type": "ComboBox",
+        "Name": "cmbSearchForMember"
+      },
+      {
+        "Visibility": "private",
+        "Type": "MonthCalendar",
+        "Name": "mthCalMemberDates"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\Form1.Designer.cs"
+  },
+  {
+    "Name": "JSONHandler",
+    "Namespace": "NasiEngine.FileHandlers",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "WriteToJSONAsync",
+        "Parameters": [
+          {
+            "Name": "keyName",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "property",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "value",
+            "Type": "T",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "string",
+        "Name": "AssignFile",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "CheckForSettingsFile",
+        "Parameters": []
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CDictionary\u003Cstring, object\u003E\u003E",
+        "Name": "ReadFromJSONAsync",
+        "Parameters": [
+          {
+            "Name": "masterKey",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "string",
+        "Name": "_targetFilePath"
+      },
+      {
+        "Visibility": "private",
+        "Type": "JSONSetting",
+        "Name": "_mode"
+      }
+    ],
+    "Properties": [
+      {
+        "Visibility": "private",
+        "Type": "JsonSerializerOptions",
+        "Name": "Options"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\FileHandlers\\JSONHandler.cs"
+  },
+  {
+    "Name": "EngineCompanyData",
+    "Namespace": "NasiEngine.ComponentFormats.Engine",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "void",
+        "Name": "AssignCompany",
+        "Parameters": [
+          {
+            "Name": "id",
+            "Type": "long",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "long",
+        "Name": "RetrieveCompanyID",
+        "Parameters": []
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "void",
+        "Name": "AssignAccountant",
+        "Parameters": [
+          {
+            "Name": "id",
+            "Type": "long",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "long",
+        "Name": "RetrieveAcountantID",
+        "Parameters": []
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "bool",
+        "Name": "WorkingWithMembers",
+        "Parameters": []
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "void",
+        "Name": "ActivateWorkingWithMembers",
+        "Parameters": []
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "bool",
+        "Name": "WorkingWithAllotments",
+        "Parameters": []
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "void",
+        "Name": "ActivateWorkingWithAllotments",
+        "Parameters": []
+      }
+    ],
+    "Fields": [],
+    "Properties": [
+      {
+        "Visibility": "private",
+        "Type": "long",
+        "Name": "_companyID"
+      },
+      {
+        "Visibility": "private",
+        "Type": "long",
+        "Name": "_accountID"
+      },
+      {
+        "Visibility": "private",
+        "Type": "bool",
+        "Name": "_memberWorking"
+      },
+      {
+        "Visibility": "private",
+        "Type": "bool",
+        "Name": "_allotmentWorking"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DataObjects\\Engine\\EngineCompanyData.cs"
+  },
+  {
+    "Name": "frmMainPoint",
+    "Namespace": "NasicoSystem",
+    "AccessModifier": "public",
+    "ParentClass": "Form",
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "button3_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "button1_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "button2_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "tbxRegistrationDate_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "mthCalRegisterDates_DateSelected",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "DateRangeEventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ShowCalender",
+        "Parameters": [
+          {
+            "Name": "targetBox",
+            "Type": "TextBox",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "HideCalender",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "DateTime",
+        "Name": "GetSelectedDate",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "tbxIncorperationDate_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "tabPage2_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "tbxAppointedDate_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "tabParticularsOfCompany_Enter",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "DisplayIdentityOverviewBoard",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "DisplayExtendedCompanyBoard",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnRegisterNewCompany_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "AllowInputForCompanyRegisterOverview",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "DisableInputForCompanyRegisterOverview",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnSaveNewCompany_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "DisplayMessageBox",
+        "Parameters": [
+          {
+            "Name": "mainText",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "message",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "btn",
+            "Type": "MessageBoxButtons",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "icon",
+            "Type": "MessageBoxIcon",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "UpdatecmbSearchItems",
+        "Parameters": [
+          {
+            "Name": "name",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "CompanyRegister",
+        "Name": "CreateCompanyRegisterObjectFromComponents",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "bool",
+        "Name": "ValidateCompanyInputWithErrors",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ClearInputAddCompany",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnHaltCompanyCreation_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "cmbSearchCompany_TextUpdate",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "cmbSearchCompany_SelectedIndexChanged",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "UpdateComponentsWithDetails",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "UpdateIdentityOverviewWith",
+        "Parameters": [
+          {
+            "Name": "lst",
+            "Type": "List\u003CMember\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "UpdateIdentityOverviewWith",
+        "Parameters": [
+          {
+            "Name": "lst",
+            "Type": "List\u003CAllotment\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "AccountantDetails",
+        "Name": "CreateAccountantDetailsFromComponents",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnEditCompanyDetails_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ShowEditButtons",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnSaveEditChanges_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "DisableEditModeCompanyRegister",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnAddIdentity_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnStopEditMode_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "HideEditButtons",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ckbOnlyMembers_CheckedChanged",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ckbOnlyAllotmentOwners_CheckedChanged",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "AllowInputMemberManagement",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "DisableInputForMemberManagement",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ckbIdentityIsMember_CheckedChanged",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnViewMembers_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ShowMemberCreationButtons",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "HideMemberCreationButtons",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnSaveNewMember_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "Member",
+        "Name": "CreateMemberFromInputComponents",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "UpdateMemberDetails",
+        "Parameters": [
+          {
+            "Name": "p",
+            "Type": "Person",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnStopMemberCreation_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "ckbDoesIdentityExist_CheckedChanged",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "AllowOnlyIDEntry",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "cmbSearchForMember_SelectedIndexChanged",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "UpdateMemberComponents",
+        "Parameters": [
+          {
+            "Name": "member",
+            "Type": "Member",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "UpdateMemberComboBox",
+        "Parameters": [
+          {
+            "Name": "member",
+            "Type": "Member",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "tabMemberManagement_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "LoadMembersToCombobox",
+        "Parameters": []
+      },
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "btnEditMember_Click",
+        "Parameters": [
+          {
+            "Name": "sender",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "e",
+            "Type": "EventArgs",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "ErrorProvider",
+        "Name": "errorProvider1"
+      },
+      {
+        "Visibility": "private",
+        "Type": "EngineCoreCompanyRegister",
+        "Name": "_nasiEngineCoreCompanyRegister"
+      },
+      {
+        "Visibility": "private",
+        "Type": "CompanyRegister",
+        "Name": "activeCompany"
+      },
+      {
+        "Visibility": "private",
+        "Type": "AccountantDetails",
+        "Name": "activeCompanyAccountant"
+      },
+      {
+        "Visibility": "private",
+        "Type": "IdentityOverview",
+        "Name": "identities"
+      },
+      {
+        "Visibility": "private",
+        "Type": "List\u003Cstring\u003E",
+        "Name": "masterList"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\Form1.cs"
+  },
+  {
+    "Name": "CompanyRegister",
+    "Namespace": "NasiEngine.ComponentFormats.Company",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [],
+    "Properties": [
+      {
+        "Visibility": "public",
+        "Type": "long",
+        "Name": "CompanyId"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "RegisteredName"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "TradingName"
+      },
+      {
+        "Visibility": "public",
+        "Type": "DateTime",
+        "Name": "RegistrationDate"
+      },
+      {
+        "Visibility": "public",
+        "Type": "int",
+        "Name": "NumberMembers"
+      },
+      {
+        "Visibility": "public",
+        "Type": "DateTime",
+        "Name": "IncorporationDate"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "Type"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "FinYearEnd"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "Description"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "RegisteredOfficeAddr"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "PostalAddress"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "IncomeTaxNum"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "CustomsNum"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "PayeNum"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "UifNum"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "WcfNum"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DataObjects\\Company\\CompanyRegister.cs"
+  },
+  {
+    "Name": "EngineCoreCompanyRegister",
+    "Namespace": "NasiEngine",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "void",
+        "Name": "SaveCompanyDetailsAsync",
+        "Parameters": [
+          {
+            "Name": "company",
+            "Type": "CompanyRegister",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "accountant",
+            "Type": "AccountantDetails",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CCompanyDetails\u003E",
+        "Name": "SeachForCompanyAsync",
+        "Parameters": [
+          {
+            "Name": "providedName",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "SaveUpdatedValuesAsync",
+        "Parameters": [
+          {
+            "Name": "company",
+            "Type": "CompanyRegister",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "editedCompany",
+            "Type": "CompanyRegister",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "accountant",
+            "Type": "AccountantDetails",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "editedAccountant",
+            "Type": "AccountantDetails",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CIdentityOverview\u003E",
+        "Name": "GetCompanyIdentities",
+        "Parameters": [
+          {
+            "Name": "companyID",
+            "Type": "long",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "SaveNewMember",
+        "Parameters": [
+          {
+            "Name": "member",
+            "Type": "Member",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CPerson\u003E",
+        "Name": "SearchPerson",
+        "Parameters": [
+          {
+            "Name": "searchTerm",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "CompanyRepository",
+        "Name": "_companyRepository"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\NasiEngine.cs"
+  },
+  {
+    "Name": "Person",
+    "Namespace": "NasiEngine.ComponentFormats.Company",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [],
+    "Properties": [
+      {
+        "Visibility": "public",
+        "Type": "long",
+        "Name": "PersonID"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "Name"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "Surname"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "IDNumber"
+      },
+      {
+        "Visibility": "public",
+        "Type": "DateTime",
+        "Name": "DOB"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "Address"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DataObjects\\Company\\Person.cs"
+  },
+  {
+    "Name": "CompanyRepository",
+    "Namespace": "NasiEngine.DB_Support",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003Cint\u003E",
+        "Name": "InsertNewCompanyToRegisterAsync",
+        "Parameters": [
+          {
+            "Name": "company",
+            "Type": "CompanyRegister",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003Cint\u003E",
+        "Name": "InsertNewAccountantAsync",
+        "Parameters": [
+          {
+            "Name": "accountant",
+            "Type": "AccountantDetails",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "InsertNewCompanyAccountant",
+        "Parameters": [
+          {
+            "Name": "companyID",
+            "Type": "int",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "accountantID",
+            "Type": "int",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CCompanyRegister?\u003E",
+        "Name": "SearchForCompany",
+        "Parameters": [
+          {
+            "Name": "name",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CAccountantDetails\u003E",
+        "Name": "SearchForCompanyAccountant",
+        "Parameters": [
+          {
+            "Name": "companyID",
+            "Type": "long",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CIdentityOverview\u003E",
+        "Name": "GetAllIdentitiesAssociatedCompanyAsync",
+        "Parameters": [
+          {
+            "Name": "companyID",
+            "Type": "long",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "UpdateAccountantDetailsAsync",
+        "Parameters": [
+          {
+            "Name": "accountantID",
+            "Type": "long",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "changes",
+            "Type": "Dictionary\u003Cstring, object\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "UpdateCompanyRegisterAsync",
+        "Parameters": [
+          {
+            "Name": "companyID",
+            "Type": "long",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "changes",
+            "Type": "Dictionary\u003Cstring, object\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "SaveNewMember",
+        "Parameters": [
+          {
+            "Name": "member",
+            "Type": "Member",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003Clong\u003E",
+        "Name": "SaveNewPerson",
+        "Parameters": [
+          {
+            "Name": "person",
+            "Type": "Person",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CPerson\u003E",
+        "Name": "SearchPersonByID",
+        "Parameters": [
+          {
+            "Name": "id",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "NpgsqlConnectionFactory",
+        "Name": "_connectionFactory"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DBData\\CompanyRepository.cs"
+  },
+  {
+    "Name": "AccountantDetails",
+    "Namespace": "NasiEngine.ComponentFormats.Company",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [],
+    "Properties": [
+      {
+        "Visibility": "public",
+        "Type": "long",
+        "Name": "AccountantID"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "Name"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string?",
+        "Name": "RegisteredOfficeAddress"
+      },
+      {
+        "Visibility": "public",
+        "Type": "DateTime",
+        "Name": "DateOfAppointment"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DataObjects\\Company\\AccountDetails.cs"
+  },
+  {
+    "Name": "CompanyQueries",
+    "Namespace": "NasiEngine.DB_Support",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "string",
+        "Name": "UpdateCompany",
+        "Parameters": [
+          {
+            "Name": "setClauses",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "string",
+        "Name": "UpdateAccountant",
+        "Parameters": [
+          {
+            "Name": "setClauses",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "InsertCompany"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "SearchCompanyByName"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "SearchForCompanyAccountant"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "InsertAccountantDetails"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "InsertCompanyAccountant"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "UpdateAccountantDetails"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "UpdateCompanyDetails"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "SearchForCompanyMember"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "SearchForCompanyAllotmentOwner"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "InsertPerson"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "InsertMember"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "SearchPersonByID"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "SearchMemberBySurname"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DBData\\CompanyQueries.cs"
+  },
+  {
+    "Name": "ObjectInpectorHelper",
+    "Namespace": "NasicoSystem.NasiEngine.HelperServices",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "Dictionary\u003Cstring, object\u003E",
+        "Name": "DetectChanges",
+        "Parameters": [
+          {
+            "Name": "active",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "edited",
+            "Type": "object",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\HelperServices\\ObjectInspectorHelper.cs"
+  },
+  {
+    "Name": "Program",
+    "Namespace": "NasicoSystem",
+    "AccessModifier": "internal",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "private",
+        "ReturnType": "void",
+        "Name": "Main",
+        "Parameters": []
+      }
+    ],
+    "Fields": [],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\Program.cs"
+  },
+  {
+    "Name": "Member",
+    "Namespace": "NasiEngine.ComponentFormats.Company",
+    "AccessModifier": "public",
+    "ParentClass": "Person",
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [],
+    "Properties": [
+      {
+        "Visibility": "public",
+        "Type": "long",
+        "Name": "MemberID"
+      },
+      {
+        "Visibility": "public",
+        "Type": "double",
+        "Name": "Interest"
+      },
+      {
+        "Visibility": "public",
+        "Type": "DateTime",
+        "Name": "AppointedDate"
+      },
+      {
+        "Visibility": "public",
+        "Type": "DateTime",
+        "Name": "ResignitionDate"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DataObjects\\Company\\Member.cs"
+  },
+  {
+    "Name": "NpgsqlConnectionFactory",
+    "Namespace": "NasiEngine.DB_Support",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [
+      "IDbConnectionFactory"
+    ],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "IDbConnection",
+        "Name": "CreateConnection",
+        "Parameters": []
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "string",
+        "Name": "_connectionString"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DBData\\NpgsqlConnectionFactory.cs"
+  },
+  {
+    "Name": "Allotment",
+    "Namespace": "NasiEngine.ComponentFormats.Company",
+    "AccessModifier": "public",
+    "ParentClass": "Person",
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [],
+    "Properties": [
+      {
+        "Visibility": "public",
+        "Type": "long",
+        "Name": "AllotmentID"
+      },
+      {
+        "Visibility": "public",
+        "Type": "int",
+        "Name": "Folio"
+      },
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "ClassOfShares"
+      },
+      {
+        "Visibility": "public",
+        "Type": "int",
+        "Name": "TotalSharesCash"
+      },
+      {
+        "Visibility": "public",
+        "Type": "double",
+        "Name": "AmountPaidForShares"
+      },
+      {
+        "Visibility": "public",
+        "Type": "int",
+        "Name": "TotalSharesOther"
+      },
+      {
+        "Visibility": "public",
+        "Type": "double",
+        "Name": "AmountPaidForOther"
+      },
+      {
+        "Visibility": "public",
+        "Type": "int",
+        "Name": "CertificateNum"
+      },
+      {
+        "Visibility": "public",
+        "Type": "int",
+        "Name": "DistinctiveNum"
+      },
+      {
+        "Visibility": "public",
+        "Type": "DateTime",
+        "Name": "DateReturnLodged"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DataObjects\\Company\\AllomentOwners.cs"
+  },
+  {
+    "Name": "Resources",
+    "Namespace": "NasicoSystem.Properties",
+    "AccessModifier": "internal",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "global::System.Resources.ResourceManager",
+        "Name": "resourceMan"
+      },
+      {
+        "Visibility": "private",
+        "Type": "global::System.Globalization.CultureInfo",
+        "Name": "resourceCulture"
+      }
+    ],
+    "Properties": [
+      {
+        "Visibility": "internal",
+        "Type": "global::System.Resources.ResourceManager",
+        "Name": "ResourceManager"
+      },
+      {
+        "Visibility": "internal",
+        "Type": "global::System.Globalization.CultureInfo",
+        "Name": "Culture"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\Properties\\Resources.Designer.cs"
+  },
+  {
+    "Name": "ComponentHelper",
+    "Namespace": "NasiEngine.HelperServices",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "Task\u003CDictionary\u003Cstring, object\u003E\u003E",
+        "Name": "LoadConfigurationsAsync",
+        "Parameters": [
+          {
+            "Name": "component",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Task",
+        "Name": "SaveConfigurationAsync",
+        "Parameters": [
+          {
+            "Name": "compomentName",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "property",
+            "Type": "string",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "value",
+            "Type": "T",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [
+      {
+        "Visibility": "private",
+        "Type": "JSONHandler",
+        "Name": "_jsonHandler"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\HelperServices\\ComponentHelper.cs"
+  },
+  {
+    "Name": "CompanyMappingConfigs",
+    "Namespace": "NasicoSystem.NasiEngine.DBData",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [
+      {
+        "Visibility": "public",
+        "Type": "Dictionary\u003Cstring, string\u003E",
+        "Name": "PropertyToColumnMapRegister"
+      },
+      {
+        "Visibility": "public",
+        "Type": "Dictionary\u003Cstring, string\u003E",
+        "Name": "PropertyToColumnMapAccountant"
+      }
+    ],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DBData\\CompanyMappingConfigs.cs"
+  },
+  {
+    "Name": "DataObjectFactory",
+    "Namespace": "NasicoSystem.NasiEngine.HelperServices",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [
+      {
+        "Visibility": "public",
+        "ReturnType": "Person",
+        "Name": "CreatePerson",
+        "Parameters": [
+          {
+            "Name": "m",
+            "Type": "Member",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "IdentityOverview",
+        "Name": "ToIdentityOverview",
+        "Parameters": [
+          {
+            "Name": "m",
+            "Type": "List\u003CMember\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          },
+          {
+            "Name": "a",
+            "Type": "List\u003CAllotment\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Dictionary\u003Cint, Member\u003E",
+        "Name": "ToDictionary",
+        "Parameters": [
+          {
+            "Name": "m",
+            "Type": "List\u003CMember\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      },
+      {
+        "Visibility": "public",
+        "ReturnType": "Dictionary\u003Cint, Allotment\u003E",
+        "Name": "ToDictionary",
+        "Parameters": [
+          {
+            "Name": "a",
+            "Type": "List\u003CAllotment\u003E",
+            "Modifiers": "",
+            "DefaultValue": null
+          }
+        ]
+      }
+    ],
+    "Fields": [],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\HelperServices\\DataObjectFactory.cs"
+  },
+  {
+    "Name": "JSONEntry",
+    "Namespace": "NasiEngine.FileHandlers",
+    "AccessModifier": "public",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [],
+    "Properties": [
+      {
+        "Visibility": "public",
+        "Type": "string",
+        "Name": "Key"
+      },
+      {
+        "Visibility": "public",
+        "Type": "T",
+        "Name": "Value"
+      }
+    ],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\FileHandlers\\JSONEntry.cs"
+  },
+  {
+    "Name": "DBPropertyToField",
+    "Namespace": "NasicoSystem.NasiEngine.DBData",
+    "AccessModifier": "internal",
+    "ParentClass": null,
+    "Interfaces": [],
+    "Methods": [],
+    "Fields": [],
+    "Properties": [],
+    "FilePath": "C:\\Danie\\BlueShirtsStudio\\Fin_BSS\\V_0.1\\NasicoSystem\\NasicoSystem\\NasiEngine\\DBData\\DBPropertyToField.cs"
+  }
+]
