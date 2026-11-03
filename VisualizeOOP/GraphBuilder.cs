@@ -1,7 +1,4 @@
 ﻿using Microsoft.Msagl.Drawing;
-using System.Collections.Generic;
-using System.Linq;
-using System.Xml.Linq;
 using Color = Microsoft.Msagl.Drawing.Color;
 using Shape = Microsoft.Msagl.Drawing.Shape;
 
@@ -9,7 +6,7 @@ namespace VisualizeOOP
 {
     public class GraphBuilderService
     {
-        public Graph BuildUmlGraph(List<ClassModel> classes)
+        public Graph BuildUmlGraph(List<ClassModel> classes, DiagramModes mode)
         {
             //Initialize the graph
             var graph = new Graph("OOP Class Diagram");
@@ -23,8 +20,7 @@ namespace VisualizeOOP
             {
                 Node node = graph.AddNode(cls.Name);
 
-                node.LabelText = $"{cls.AccessModifier} class {cls.Name}\n" +
-                                 $"Props: {cls.PropertyCount} | Fields: {cls.FieldCount} | Methods: {cls.MethodCount}";
+                node.LabelText = CreateNodeLabel(cls, mode);
 
                 if (node.Label != null)
                 {
@@ -78,5 +74,88 @@ namespace VisualizeOOP
 
             return graph;
         }
+
+        private string CreateNodeLabel(ClassModel cls, DiagramModes mode) 
+        {
+            string label = default;
+
+            switch (mode)
+            {
+                case DiagramModes.Summary:
+                    label = CreateSummaryLabel(cls);
+                    break;
+
+                case DiagramModes.Detailed:
+                    label = CreateDetailedLabel(cls);
+                    break;
+
+                default:
+                    label = "Unkown Mode";
+                    break;
+
+            }
+
+            return label;
+
+        }
+
+        private string CreateSummaryLabel(ClassModel cls)
+        {
+            var lines = new List<string>
+            {
+                $"{cls.AccessModifier} {cls.Name}"
+            };
+
+            if (!string.IsNullOrEmpty(cls.ParentClass))
+                        lines.Add($"Base: {cls.ParentClass}");
+
+            if (cls.Interfaces.Any())
+            {
+                lines.Add($"Interfaces: {string.Join(", ", cls.Interfaces)}");
+            }
+
+            lines.Add("");
+            lines.Add($"Props: {cls.PropertyCount} | Fields: {cls.FieldCount} | Methods: {cls.MethodCount}");
+
+            return string.Join("\n", lines);
+        }
+
+        private string CreateDetailedLabel(ClassModel cls)
+        {
+            var lines = new List<string>
+            {
+                $"{cls.AccessModifier} {cls.Name}",
+                "──────────────"
+            };
+
+            if (!string.IsNullOrEmpty(cls.ParentClass))
+                lines.Add($"Base: {cls.ParentClass}");
+
+            if (cls.Interfaces.Any())
+                lines.Add($"Interfaces: {string.Join(", ", cls.Interfaces)}");
+
+            var properties = cls.Properties
+                .Select(m => m.Name);
+
+            if (properties.Any())
+            {
+                lines.Add("──────────────");
+                lines.AddRange(properties);
+            }
+
+            var methods = cls.Methods
+                .Where(m => m.Visibility == "public" || m.Visibility == "protected")
+                .Select(m => $"{m.ReturnType} {m.Name}()");
+
+            if (methods.Any())
+            {
+                lines.Add("──────────────");
+                lines.AddRange(methods);
+            }
+
+            return string.Join("\n", lines);
+        }
+
     }
+
 }

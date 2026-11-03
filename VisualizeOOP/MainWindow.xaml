@@ -18,6 +18,13 @@
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
             <TextBox x:Name="txtFolderPath" Width="400" Margin="0,0,10,0" VerticalContentAlignment="Center"/>
             <Button Content="Analyze &amp; Build Graph" Click="BtnAnalyze_Click" Padding="10,5"/>
+            <!-- Segmented toggle (RadioButtons styled as buttons) -->
+            <RadioButton x:Name="rbSummary" Content="Summary" IsChecked="True"
+                             Style="{StaticResource {x:Type ToggleButton}}"
+                             Padding="14,4" Checked="Mode_Checked"/>
+            <RadioButton x:Name="rbDetailed" Content="Detailed"
+                             Style="{StaticResource {x:Type ToggleButton}}"
+                             Padding="14,4" Checked="Mode_Checked"/>
         </StackPanel>
 
         <!-- Sidebar & Graph Display area -->

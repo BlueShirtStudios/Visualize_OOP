@@ -55,3 +55,4 @@ C:\Danie\BlueShirtsStudio\VisualizeOOP\VisualizeOOP\VisualizeOOP\obj\Debug\net8.
 C:\Danie\BlueShirtsStudio\VisualizeOOP\VisualizeOOP\VisualizeOOP\obj\Debug\net8.0-windows\VisualizeOOP.pdb
 C:\Danie\BlueShirtsStudio\VisualizeOOP\VisualizeOOP\VisualizeOOP\obj\Debug\net8.0-windows\VisualizeOOP.genruntimeconfig.cache
 C:\Danie\BlueShirtsStudio\VisualizeOOP\VisualizeOOP\VisualizeOOP\obj\Debug\net8.0-windows\ref\VisualizeOOP.dll
+C:\Danie\BlueShirtsStudio\VisualizeOOP\VisualizeOOP\VisualizeOOP\obj\Debug\net8.0-windows\VisualizeOOP.sourcelink.json

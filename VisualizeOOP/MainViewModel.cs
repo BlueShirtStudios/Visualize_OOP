@@ -12,9 +12,23 @@ namespace VisualizeOOP
     public class MainViewModel
     {
         private readonly GraphBuilderService _graphBuilder = new();
+        private DiagramModes _displayMode = DiagramModes.Summary;
 
         public ObservableCollection<ClassModel> Classes { get; set; } = new();
         public Graph CurrentGraph { get; private set; } = new("Empty");
+
+        public event Action? GraphChanged;
+
+        public DiagramModes DisplayMode
+        {
+            get => _displayMode;
+            set
+            {
+                if (_displayMode == value) return;
+                _displayMode = value;
+                RebuildGraph();
+            }
+        }
 
         public async Task ProcessAndLoadGraphAsync(string targetFolderPath)
         {
@@ -55,8 +69,17 @@ namespace VisualizeOOP
                 }
 
                 //Build the graph with the newly read classes
-                CurrentGraph = _graphBuilder.BuildUmlGraph(loadedClasses);
+                RebuildGraph();
             }
+
+        }
+
+        private void RebuildGraph()
+        {
+            if (Classes.Count == 0) return;
+
+            CurrentGraph = _graphBuilder.BuildUmlGraph(Classes.ToList(), _displayMode);
+            GraphChanged?.Invoke();
         }
     }
 }
