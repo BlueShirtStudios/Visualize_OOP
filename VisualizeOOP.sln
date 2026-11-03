@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualizeOOP", "VisualizeOOP\VisualizeOOP.csproj", "{62FCBECE-FA9A-4F73-9B74-5E4AFA4CB34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Analyzer", "..\..\OOP_Analyzer\OOP_Analyzer_Library\OOP_Analyzer\OOP_Analyzer\OOP_Analyzer.csproj", "{52423C09-840F-3055-A4B9-95851C05DF28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62FCBECE-FA9A-4F73-9B74-5E4AFA4CB34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FCBECE-FA9A-4F73-9B74-5E4AFA4CB34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FCBECE-FA9A-4F73-9B74-5E4AFA4CB34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FCBECE-FA9A-4F73-9B74-5E4AFA4CB34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52423C09-840F-3055-A4B9-95851C05DF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52423C09-840F-3055-A4B9-95851C05DF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52423C09-840F-3055-A4B9-95851C05DF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52423C09-840F-3055-A4B9-95851C05DF28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEC67199-CACB-4842-B2F2-C314D45D3F5D}
+	EndGlobalSection
+EndGlobal
